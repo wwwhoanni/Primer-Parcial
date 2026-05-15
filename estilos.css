@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h2,h3 {
+    margin-left: 80px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+                color: aliceblue; /* Texto en blanco para contraste */
+             -webkit-text-stroke: 1px black; /* Grosor y color */
+              background-color: rgba(240, 248, 255, 0.3) ;
+}
+h2 {
+     
+text-shadow: 
+    -1px -1px 0 #f0eeee, 
+     1px -1px 0 #f0eeee, 
+    -1px  1px 0 #f0eeee, 
+     1px  1px 0 #f0eeee;
+}
+
+aside {
+     text-align: right;
+     font-family: "Barlow", sans-serif;
+     background-color: rgba(240, 248, 255, 0.6) ;        
+     text-shadow: 
+    -1px -1px 0 #f0eeee, 
+     1px -1px 0 #f0eeee, 
+    -1px  1px 0 #f0eeee, 
+     1px  1px 0 #f0eeee; 
+     padding-right: 40px;
+    }
+
+ body {
+            margin: 20; 
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+            background-image: url("../img/fondo.png"); /* Ruta de la imagen */
+            background-repeat: repeat; /* Es una imagen pequeña por lo que queremos que se repita */
+
+            font-family: "Barlow", sans-serif;
+             font-weight: 400;
+             text-shadow: 
+    -1px -1px 0 #f0eeee, 
+     1px -1px 0 #f0eeee, 
+    -1px  1px 0 #f0eeee, 
+     1px  1px 0 #f0eeee;
+    
+        }
+
+nav {
+     background-color: rgba(240, 248, 255, 0.8) ; /*opacidad para que se aprecie el fondo */
+      text-align: center;
+      font-weight: bold;
+      height: 10vh;   
+     
+     
+     
+}
+
+
+li {
+    list-style: none;
+  text-align: justify;  
+  margin: auto;
+  border-right: 0em;
+  font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.8) ;
+
+}
+
+
+
+p {
+     text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+    text-shadow: 3ch;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.8) ;
+     font-weight: 600;
+}
+
+footer a:link {
+  color: #f1c40f; /* Yellow */
+   font-weight: bold;
+    text-shadow: 
+    -1px -1px 0 #000, 
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
+
+.contenedor {
+     display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+  height: 100vh;           /* Opcional: define altura para centrar verticalmente */
+}
+img {
+  max-width: 100%;         /* Responsividad */
+  height: auto;
+}
+
+section article  .caja {
+  display: inline-flex;
+  
+  justify-content: right; 
+  align-items: center;     /* Centrado vertical */
+  height: 100vh;           /* Opcional: define altura para centrar verticalmente */
+   gap: 20px;
+   max-width: fit-content;
+   margin-right: 10%;
+   margin-left: 8%;
+   min-width: 0;
+  
+}
+
+.miti1 {
+    display: inline flex;
+    float: left;
+    width: 45%;
+    margin: 3em;
+    gap: 2em;
+}
+.miti2 {
+    display: inline-flex;
+        width: 45%;
+        height: max-content;
+        
+        margin-left: 0.9em;
+}
+
+.salto {
+    margin-top: 15em;
+    
+    display: block;
+}
